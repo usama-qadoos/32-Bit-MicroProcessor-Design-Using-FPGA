@@ -1,0 +1,10 @@
+module pipeline (#parameter n = 8)(in,clock,out);
+input [n-1:0]in;
+output reg [n-1:0];
+
+
+always @(posedge clock)
+begin
+out <= in;
+end
+endmodule
