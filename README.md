@@ -74,12 +74,17 @@ our microprocessor and how the Arithmetic Logic unit (ALU) operates on two opera
 
 Assignment is fully completed and has been tested on FPGA as well as through Timing Waveforms. It’s 
 fully pipelined and performs operations on the provided instruction set.
+
 Deliverables completed:
+
 • Our Design can operate on all the instructions provided for Tesbench testing.
+
 • Our Design is effectively pipelined, all outputs and inputs are registered as well as the 
 intermediate output
+
 • Our implemented architecture will reset the program counter as well as the program once all 
 the instructions in our instructions file (memory.dat file) are executed, so the HEX displays are 
 cleared as well as the Registers and program counter is reset.
+
 • Pressing reset at any point in program execution will automatically reset the program counter
 and the registers, as well as the HEX displays.
