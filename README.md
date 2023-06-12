@@ -1,16 +1,4 @@
 # 32-Bit-MicroProcessor-Design-Using-FPGA
-**Assignment Status:**
-Assignment is fully completed and has been tested on FPGA as well as through Timing Waveforms. It’s 
-fully pipelined and performs operations on the provided instruction set.
-Deliverables completed:
-• Our Design can operate on all the instructions provided for Tesbench testing.
-• Our Design is effectively pipelined, all outputs and inputs are registered as well as the 
-intermediate output
-• Our implemented architecture will reset the program counter as well as the program once all 
-the instructions in our instructions file (memory.dat file) are executed, so the HEX displays are 
-cleared as well as the Registers and program counter is reset.
-• Pressing reset at any point in program execution will automatically reset the program counter
-and the registers, as well as the HEX displays.
 
 **Description:** 
 The project is focused on implementing a pipelined 32-bit microprocessor design based on a provided instruction set. The design follows a standard pipelined architecture, incorporating various modules to handle different aspects of the processor's operation.
@@ -55,7 +43,13 @@ instruction and 0 value shows that an operation was performed by ALU and the out
 ![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/25888f95-be0e-42da-a845-bcad190e619a)
 
 
-**FPGA Demo Pictures: **
+**FPGA Demo Pictures:**
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/187d8077-486f-4d1e-aa58-ca2358802431)
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/3d624884-da67-4ce2-adbb-c9650fdd95f1)
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/aad8ce19-c658-4c27-b227-9dca82a04665)
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/0e336ce1-f57c-4e84-9e5a-19fe082c6cb0)
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/7e6b42b4-f5f1-411f-8bb0-f15ff9bf915e)
+![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/00b31140-55d2-415e-9ee4-29933056ed3b)
 
 
 
@@ -69,3 +63,16 @@ register cleared and starts the execution of program from the start, i.e., the f
 instruction Queue. Furthermore, in our implementation we were able to model our circuit 
 design as per our Datapath. We got to see the process of how instructions are executed within 
 our microprocessor and how the Arithmetic Logic unit (ALU) operates on two operands.
+
+**Assignment Status:**
+Assignment is fully completed and has been tested on FPGA as well as through Timing Waveforms. It’s 
+fully pipelined and performs operations on the provided instruction set.
+Deliverables completed:
+• Our Design can operate on all the instructions provided for Tesbench testing.
+• Our Design is effectively pipelined, all outputs and inputs are registered as well as the 
+intermediate output
+• Our implemented architecture will reset the program counter as well as the program once all 
+the instructions in our instructions file (memory.dat file) are executed, so the HEX displays are 
+cleared as well as the Registers and program counter is reset.
+• Pressing reset at any point in program execution will automatically reset the program counter
+and the registers, as well as the HEX displays.
