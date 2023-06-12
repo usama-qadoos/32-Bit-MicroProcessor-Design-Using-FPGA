@@ -1,6 +1,7 @@
 # 32-Bit-MicroProcessor-Design-Using-FPGA
 
 **Description:** 
+
 The project is focused on implementing a pipelined 32-bit microprocessor design based on a provided instruction set. The design follows a standard pipelined architecture, incorporating various modules to handle different aspects of the processor's operation.
 
 At the top level, the project utilizes a Program Counter (PC) module to keep track of the current instruction address. The PC returns a 5-bit value representing the count, which is then passed to the Instruction Queue (IQ) module. The IQ module reads instructions from a memory.dat file based on the value received from the PC. It fetches the instruction pointed to by the PC's 5-bit value and passes it to the Instruction Update (IU) module.
@@ -14,10 +15,13 @@ Finally, the Arithmetic Logic Unit (ALU) module is instantiated to perform opera
 The design also includes mapping certain inputs and outputs. KEY-0 is used as the clock input, and KEY-1 is used for the reset signal. The HEX display is utilized to show the contents of various registers and the ALU's output register. Specifically, HEX0 and HEX1 display Register A, HEX2 and HEX3 display Register B, and HEX4 and HEX5 display the contents of the ALU's output register.
 
 Overall, this project aims to create an efficient pipelined microprocessor design with optimized instruction execution and effective register handling.
+
 **RTL:**
+
 ![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/54411c04-1a94-4842-b030-6d6d1caa8f0e)
 
 **Waveform Simulation:**
+
 Clock Time Period: 10ns
 Total Simulation period: 1us
 Instructions executed: All 41 instructions provided for the testbench, last instruction will automatically 
@@ -44,6 +48,7 @@ instruction and 0 value shows that an operation was performed by ALU and the out
 
 
 **FPGA Demo Pictures:**
+
 ![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/187d8077-486f-4d1e-aa58-ca2358802431)
 ![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/3d624884-da67-4ce2-adbb-c9650fdd95f1)
 ![image](https://github.com/usama-qadoos/32-Bit-MicroProcessor-Design-Using-FPGA/assets/115080912/aad8ce19-c658-4c27-b227-9dca82a04665)
@@ -55,6 +60,7 @@ instruction and 0 value shows that an operation was performed by ALU and the out
 
 
 **Conclusion:**
+
 In this assignment we summed up all the hardware design components into making of a 32-bit 
 Microprocessor using the provided instruction set. We were able to demonstrate the concepts 
 of pipelining and timed instruction execution and once all the instructions were executed, the 
@@ -65,6 +71,7 @@ design as per our Datapath. We got to see the process of how instructions are ex
 our microprocessor and how the Arithmetic Logic unit (ALU) operates on two operands.
 
 **Assignment Status:**
+
 Assignment is fully completed and has been tested on FPGA as well as through Timing Waveforms. It’s 
 fully pipelined and performs operations on the provided instruction set.
 Deliverables completed:
